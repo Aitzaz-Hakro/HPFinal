@@ -12,6 +12,17 @@ gsap.from(".col-md-4", {
     toggleActions: "play none none none"
   }
 });
+gsap.from(".underline", {
+  scaleX: 0,
+  opacity: 0,
+  transformOrigin: "left center",
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".underline",
+    start: "top 90%",
+    toggleActions: "play none none none"
+  }
+});
 
 // Animate Images in Hult Section
 gsap.from(".hult-section img", {
