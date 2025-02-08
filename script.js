@@ -76,6 +76,17 @@ gsap.from(".achievement-box", {
   }
 });
 
+gsap.from(".sponsor-section", {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".sponsor-section",
+    start: "top 80%",
+    toggleActions: "play none none reverse"
+  }
+});
+
 
 
 
